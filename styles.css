@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100svh;
+  width: 100svw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 100px;
+}
+.button{
+  height: 80px;
+  width: 150px;
+  background: linear-gradient(pink, skyblue);
+  box-shadow: 1px 1px 1px 1px pink;
+  border-radius: 40px;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+table {
+  color: transparent;
+  opacity: 0;
+}
